@@ -1,0 +1,13 @@
+ul {
+  /* list-style-image: url("/images/sqpurple.gif");
+    list-style-position: outside;
+    background-color: chartreuse; */
+  /* list-style: square inside; */
+  list-style-type: none;
+}
+li {
+  border: 1px solid black;
+}
+li:before {
+  content: "😉";
+}
